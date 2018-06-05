@@ -1,8 +1,11 @@
-number = 5
-if int % 3 == 0 && % 5 == 0 
-  puts "Fizzbuzz"
-if int % 3 == 0 
-  puts "Fizz"
-if int % 5 == 0 
-  puts " Buzz"
-end 
+def fizzbuzz(int)
+ if(int % 3 == 0 && % 5 == 0) 
+   puts "Fizzbuzz"
+ elsif(int % 3 == 0)
+   puts "Fizz"
+ elsif(int % 5 == 0) 
+   puts "Buzz"
+ end 
+end
+
+fizzbuzz(3)
